@@ -180,7 +180,26 @@ hr {
 
     border-top: 1px solid #333;
 }
+/* =========================
+   WELCOME IMAGE
+========================= */
 
+.welcome-image {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 35px 0;
+}
+
+.welcome-image img {
+    display: block;
+
+    width: 300px;
+    height: auto;
+}
 
 /* =========================
    VIDEO
