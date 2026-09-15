@@ -247,10 +247,6 @@ hr {
 
     line-height: 1.7;
 }
-.after-comments-image img {
-    width: 100px;
-    height: auto;
-}
 
 /* =========================
    FOOTER
@@ -497,4 +493,14 @@ footer {
     letter-spacing: 1px;
 
     font-style: italic;
+}
+.after-comments-image {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.after-comments-image img {
+    width: 200px;
+    height: auto;
 }
